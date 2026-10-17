@@ -1,1 +1,3 @@
-# eduardaguicode.github.io
+# eduardaguicode — portfólio
+
+Meu portfólio!
