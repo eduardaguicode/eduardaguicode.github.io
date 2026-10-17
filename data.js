@@ -6,7 +6,7 @@ const DATA = {
     photo: "foto-eduarda.jpg",
     photoAlt: { pt: "Eduarda Guilherme sentada ao lado de um cachorro golden retriever, em uma varanda de frente para o mar", en: "Eduarda Guilherme sitting beside a golden retriever on a balcony overlooking the sea" },
     photoLabel: "me.jpg",
-    subtitle: { pt: "Backend · Desenvolvimento seguro · Dados", en: "Backend · Secure development · Data" },
+    subtitle: { pt: "Estudante de Ciência da Computação", en: "Computer Science Student" },
 
     code: {
       pt: { fn: "sobremim", text: "Olá! Sou uma estudante de Ciência da Computação na UFRPE, e este é o meu portfólio, onde você pode descobrir mais sobre mim e meus projetos." },
@@ -37,7 +37,7 @@ const DATA = {
   },
 
 
-  tools: ["Python", "Java", "SQL", "Git"],
+  tools: ["Python", "SQL", "Git"],
 
   /* 
       MODELO:
@@ -51,9 +51,9 @@ const DATA = {
          ] }
   */
   experience: [
-    { icon: "lock", title: { pt: "Integrante – LIAC UFRPE", en: "Member – LIAC UFRPE" },
+    /*{ icon: "lock", title: { pt: "Integrante – LIAC UFRPE", en: "Member – LIAC UFRPE" },
       period: { pt: "Out 2026 – atualmente", en: "Oct 2026 – present" },
-      text: { pt: "Integrante da Liga Acadêmica de CyberSegurança UFRPE", en: "Member of the UFRPE Cybersecurity Academic League" } },
+      text: { pt: "Integrante da Liga Acadêmica de CyberSegurança UFRPE", en: "Member of the UFRPE Cybersecurity Academic League" } },*/
     { icon: "teach", title: { pt: "Professora de Inglês – Melos English School", en: "English teacher – Melos English School" },
       period: { pt: "Jan 2024 – Out 2026", en: "Jan 2024 – Oct 2026" },
       text: { pt: "Professora de curso livre de inglês", en: "Teacher at an English language school" },
