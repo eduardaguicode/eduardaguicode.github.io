@@ -29,7 +29,7 @@ const DATA = {
     courses: [
       { icon: "doc", title: { pt: "Administrador de Banco de Dados – IFRS", en: "Database Administrator – IFRS" },
         period: { pt: "Jul 2026 – Set 2026", en: "Jul 2026 – Sep 2026" },
-        text: { pt: "Curso livre online", en: "Online short course" } }
+        text: { pt: "Curso livre online - 200h", en: "Online short course - 200h" } }
       
     ]
   },
