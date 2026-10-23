@@ -1,12 +1,10 @@
 const DATA = {
 
-  /* ---------- APRESENTAÇÃO (topo da página) ---------- */
   hero: {
     name: "Eduarda Guilherme",
-    photo: "foto-eduarda.jpg",
-    photoAlt: { pt: "Eduarda Guilherme sentada ao lado de um cachorro golden retriever, em uma varanda de frente para o mar", en: "Eduarda Guilherme sitting beside a golden retriever on a balcony overlooking the sea" },
-    photoLabel: "me.jpg",
-    subtitle: { pt: "Estudante de Ciência da Computação", en: "Computer Science Student" },
+    photo: "foto-hero.webp",
+    photoAlt: { pt: "Eduarda Guilherme sorrindo, de óculos, com um notebook no colo", en: "Eduarda Guilherme smiling, wearing glasses, with a laptop on her lap" },
+        subtitle: { pt: "Estudante de Ciência da Computação", en: "Computer Science Student" },
 
     code: {
       pt: { fn: "sobremim", text: "Olá! Sou uma estudante de Ciência da Computação na UFRPE, e este é o meu portfólio, onde você pode descobrir mais sobre mim e meus projetos." },
@@ -16,7 +14,7 @@ const DATA = {
 
   /*
      MODELO:
-       { icon: "cap",                                   // ícone: cap, doc, lock, teach, code, book
+       {
          title:  { pt: "Nome da instituição ou curso", en: "Institution or course name" },
          period: { pt: "Mês Ano – Mês Ano",            en: "Mon Year – Mon Year" },
          text:   { pt: "Descrição curta",              en: "Short description" } }
@@ -37,11 +35,11 @@ const DATA = {
   },
 
 
-  tools: ["Python", "SQL", "Git"],
+  tools: ["Git", "Python", "SQL"],
 
   /* 
       MODELO:
-       { icon: "code",                                  // ícone: cap, doc, lock, teach, code, book
+       {
          title:  { pt: "Cargo – Empresa",               en: "Role – Company" },
          period: { pt: "Mês Ano – atualmente",          en: "Mon Year – present" },
          text:   { pt: "O que você fez e aprendeu.",    en: "What you did and learned." },
@@ -70,7 +68,7 @@ const DATA = {
   },
 
   /* 
-      MODELO (copie daqui):
+      MODELO:
        {
          slug: "meu-projeto",                  // identificador único: minúsculas, sem espaços nem acentos
          title:   { pt: "Nome do projeto", en: "Project name" },
@@ -97,10 +95,11 @@ const UI = {
   skip: { pt: "Pular para o conteúdo", en: "Skip to content" },
   degrees: { pt: "Formação acadêmica", en: "Academic background" }, courses: { pt: "Cursos livres", en: "Complementary courses" },
   toolsSub: { pt: "Tecnologias, linguagens e bibliotecas dos meus projetos.", en: "Technologies, languages and libraries from my projects." },
-  lattes: { pt: "Veja também meu currículo Lattes →", en: "See also my Lattes résumé →" },
+  lattes: { pt: "Lattes", en: "Lattes" }, lattesFull: { pt: "Abrir meu currículo Lattes", en: "Open my Lattes résumé" }, hello: { pt: "Prazer,", en: "Nice to meet you," },
+  notesTxt: { pt: "Veja também meu bloco de notas, onde explico toda a ideação e produção desses projetos", en: "Also see my notebook, where I explain the whole ideation and making of these projects" }, notesBtn: { pt: "Bloco de Notas", en: "Notebook" },
   projSub: { pt: "Um resumo de cada projeto. O passo a passo está no bloco de notas.", en: "A summary of each project. The step-by-step lives in the notebook." },
   openAll: { pt: "Abrir portfólio completo no bloco de notas", en: "Open the full portfolio in the notebook" },
-  soon: { pt: "Em breve…", en: "Coming soon…" },
+  soon: { pt: "Em breve...", en: "Coming soon..." },
   wip: { pt: "Estou trabalhando nisso.", en: "I'm working on it." },
   wipSub: { pt: "Os projetos serão disponibilizados aqui em breve.", en: "The projects will be available here soon." },
   contactSub: { pt: "Uma mensagem, um e-mail ou um perfil profissional.", en: "A message, an email or a professional profile." },
@@ -112,11 +111,15 @@ const UI = {
   nbWhy: { pt: "Para que serve este bloco de notas?", en: "What is this notebook for?" },
   whyTitle: { pt: "Para que serve este bloco de notas", en: "What this notebook is for" },
   why1: { pt: "Aqui reúno informações educativas sobre os projetos que desenvolvo. Cada nota registra a produção em ordem cronológica, em etapas explicadas de forma didática.", en: "This is where I gather educational notes about the projects I build. Each note records the making in chronological order, in steps explained plainly." },
-  why2: { pt: "No fim de cada nota está o projeto finalizado: pitch do produto, repositório no GitHub, vídeo no YouTube e tecnologias usadas.", en: "At the end of each note is the finished project: product pitch, GitHub repository, YouTube video and technologies used.." },
+  why2: { pt: "No fim de cada nota está o projeto finalizado: pitch do produto, repositório no GitHub, vídeo no YouTube e tecnologias usadas.", en: "At the end of each note is the finished project: product pitch, GitHub repository, YouTube video and technologies used." },
   back: { pt: "← Todas as notas", en: "← All notes" }, home: { pt: "← Página inicial", en: "← Home" },
   how: { pt: "Como foi feito", en: "How it was made" }, product: { pt: "O produto", en: "The product" },
   repo: { pt: "Repositório no GitHub", en: "GitHub repository" }, video: { pt: "Assistir no YouTube", en: "Watch on YouTube" },
   stack: { pt: "Tecnologias", en: "Technologies" }, open: { pt: "Abrir nota", en: "Open note" },
+  notesLink: { pt: "Veja minhas anotações de desenvolvimento no Bloco de Notas", en: "See my development notes in the Notebook" },
+  projLabel: { pt: "Projeto", en: "Project" }, prev: { pt: "Projeto anterior", en: "Previous project" }, next: { pt: "Próximo projeto", en: "Next project" },
+  run: { pt: "Executar", en: "Run" }, focus: { pt: "Backend, desenvolvimento seguro e dados.", en: "Backend, secure development and data." },
+  menu: { pt: "Menu", en: "Menu" }, close: { pt: "Fechar", en: "Close" },
   top: { pt: "Voltar ao topo", en: "Back to top" },
   foot: { pt: "Eduarda Menezes Guilherme · Recife-PE", en: "Eduarda Menezes Guilherme · Recife-PE" }
 };
